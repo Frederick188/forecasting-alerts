@@ -19,12 +19,3 @@ It also detects **anomalies in sentiment trends**, **keyword surges**, and sends
 -  Generates **visual plots** of sentiment trends and forecasts  
 
 ---
-
-Project Structure
-project/
-│── create_dataset.py       # Fetches news, cleans text, performs sentiment analysis, saves CSV
-│── forecast_chronos.py     # Forecasts sentiment, detects anomalies, keyword surges, plots results
-│── requirements.txt        # Python dependencies
-│── .env                    # Stores API keys (NewsAPI, Slack Webhook)
-│── ai_news_sentiment_forecast.csv  # Generated dataset
-│── README.md               # Project documentation
